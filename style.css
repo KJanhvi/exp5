@@ -1,0 +1,57 @@
+/* Styles for the container */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the form */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 5px;
+}
+
+.form input[type="text"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+/* Styles for the buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0b4db7;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #5d9cd4;
+}

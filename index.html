@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta Name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bank Details</h2>
+      <hr />
+      <br />
+      <div class="form">
+        AccNo: <input type="text" Name="AccNo" id="AccNo" /> <br /><br />
+        Name:&nbsp; <input type="text" Name="Name" id="Name" /> <br /><br />
+        Bank: <input type="text" Name="Bank" id="Bank" /> <br /><br />
+        Email: <input type="text" Name="" id="Email" /> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Insert</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    
+    <script src="./fireConfig.js"></script>
+
+    <script src="./myscript.js"></script>
+  </body>
+</html>
